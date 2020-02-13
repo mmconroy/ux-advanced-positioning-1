@@ -1,1 +1,24 @@
-/* Add your CSS Below */
+th {
+  background-color: darkgreen;
+  color: white;
+  height: 50px;
+}
+
+tr {
+  text-align: center;
+}
+
+td {
+  vertical-align: center;
+  height: 50px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+table {
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 4px 4px 0px 0px;
+}
